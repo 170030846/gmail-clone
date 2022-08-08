@@ -3,7 +3,16 @@
     overflow: scroll;
 }
 
-.emailList__settings{
+.emailList::-webkit-scrollbar {
+    display: none;
+}
+
+.emailList{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.emailList__settings{ 
     display: flex;
     justify-content: space-between;
     position: sticky;
@@ -21,4 +30,8 @@
     background-color: white;
     border-bottom: 1px solid whitesmoke;
     z-index: 999;
+}
+
+.emailList__list{
+    padding-bottom: 20%;
 }

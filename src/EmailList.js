@@ -82,7 +82,7 @@ function EmailList() {
             time={new Date(timestamp?.seconds * 1000).toUTCString()}
           />
         ))}
-        {/* <EmailRow
+        <EmailRow
           title="Facebook"
           subject="Friend request"
           description="This is a test"
@@ -97,7 +97,183 @@ function EmailList() {
           This is a test
           This is a test"
           time="10pm"
-        /> */}
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test"
+          time="10pm"
+        />
+        <EmailRow
+          title="Facebook"
+          subject="Friend request"
+          description="This is a test
+          This is a test
+          This is a test
+          This is a test
+          This is a test"
+          time="10pm"
+        />
       </div>
     </div>
   );
