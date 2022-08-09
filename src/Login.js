@@ -2,7 +2,7 @@ import { Button } from "@material-ui/core";
 import React from "react";
 import "./Login.css";
 import { auth, provider } from "./firebase";
-import login from "./features/userSlice";
+import { login } from "./features/userSlice";
 import { useDispatch } from "react-redux";
 
 function Login() {
@@ -30,11 +30,10 @@ function Login() {
           src="https://mailmeteor.com/logos/assets/PNG/Gmail_Logo_512px.png"
           alt=""
         />
+        <Button variant="contained" color="primary" onClick={signIn}>
+          Login
+        </Button>
       </div>
-
-      <Button variant="contained" color="primary" onClick={signIn}>
-        Login
-      </Button>
     </div>
   );
 }
